@@ -1,0 +1,2 @@
+# 수업 깃허브 저장소(https://github.com/ai7dnn/2025-OSS)
+
