@@ -131,7 +131,7 @@ gantt
 <table>
   <tr>
     <td>
-      <img src="https://img.shields.io/badge/📧%20Email-sdg331@example.com-4b6cb7?style=for-the-badge&logo=gmail&logoColor=white" />
+      <img src="https://img.shields.io/badge/📧%20Email-sdg331@dongyang.ac.kr-4b6cb7?style=for-the-badge&logo=gmail&logoColor=white" />
     </td>
     <td>
       <img src="https://img.shields.io/badge/💬%20Discord-sdg331-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
@@ -140,11 +140,3 @@ gantt
 </table>
 </div>
 
----
-
-<div align="center">
-  <img src="https://img.shields.io/badge/OSS%20교과목목-1등%20확정!-4b6cb7?style=for-the-badge&logo=trophy&logoColor=gold" />
-  <br><br>
-  <img src="https://komarev.com/ghpvc/?username=sdg331&color=4b6cb7&style=for-the-badge" />
-</div>
-```
