@@ -1,3 +1,4 @@
+```markdown
 # Personal-OSS-Project-Repository | OSS 교과목 내용 정리 깃허브
 
 <div align="center">
@@ -10,17 +11,17 @@
 
 ## 👨‍💻 **소개 | About Me**
 
+```
 🔭 OSS 교과목 1등 목표로 Git/GitHub 완벽 마스터 중
 🌱 Python, Java, C, HTML 실전 프로젝트 진행
 💻 vacuum-cleaner 팀 프로젝트 리더 역임
 🎯 실제 오픈소스 기여 및 GitHub Actions 자동화 구현
-
-text
+```
 
 <div align="center">
-  <img src="https://img.shields.io/badge/%EC%88%98%EC%97%85%20%EC%A0%90%EB%A0%B4-100%25-4b6cb7?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-3%EA%B0%9C-4b6cb7?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/PR%20%EA%B2%BD%ED%97%98-10%EA%B0%9C%EC%9D%B4%EC%83%81-4b6cb7?style=for-the-badge&logo=git-pull-request&logoColor=white" />
+  <img src="https://img.shields.io/badge/수업%20절려-100%-4b6cb7?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/프로젝트-3개-4b6cb7?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/PR%20경험-10개이상-4b6cb7?style=for-the-badge&logo=git-pull-request&logoColor=white" />
 </div>
 
 ---
@@ -28,15 +29,11 @@ text
 ## 🛠️ **Tech Stack | 기술 스택**
 
 ### **🌟 Languages (실전 활용 중)**
+```
 graph LR
-A[🐍 Python
-알고리즘/자동화] --> B[☕ Java
-객체지향/백엔드]
-C[⚡ C
-시스템프로그래밍] --> D[🌐 HTML
-웹기초]
-
-text
+  A[🐍 Python<br/>알고리즘/자동화] --> B[☕ Java<br/>객체지향/백엔드]
+  C[⚡ C<br/>시스템프로그래밍] --> D[🌐 HTML<br/>웹기초]
+```
 
 <table>
   <tr>
@@ -66,6 +63,7 @@ text
 ## 📚 **Git/GitHub 완벽 마스터 | 학습 정리**
 
 ### **🎯 Git 워크플로우 (실전 적용)**
+```
 💡 로컬 → 원격 완전 동기화 프로세스
 ├── git clone (저장소 복제)
 ├── git checkout -b feature/기능명 (브랜치 생성)
@@ -73,8 +71,7 @@ text
 ├── git commit -m "feat: 기능 설명" (의미있는 커밋 메시지)
 ├── git push origin feature/기능명 (푸시)
 └── GitHub PR 생성 → Code Review → Merge
-
-text
+```
 
 ### **🏆 GitHub 고급 기능 활용 현황**
 | 기능 | 활용 사례 | 실습 결과 |
@@ -113,30 +110,19 @@ text
 
 ## 🎯 **로드맵 | 2025 개발 계획**
 
+```
 gantt
-title OSS 전문가로 성장하기
-dateFormat YYYY-MM-DD
-section Python
-알고리즘 심화 :2025-01-01, 90d
-웹 백엔드 FastAPI :2025-04-01, 60d
-section Java
-Spring Boot :2025-02-01, 90d
-section GitHub
-Actions CI/CD :2025-03-01, 30d
-오픈소스 기여 :2025-05-01, 180d
-
-text
-
----
-
-## 🏅 **수상 및 성과**
-
-🥇 OSS 교과목 1등 목표 (진행 중 100%)
-⭐ vacuum-cleaner 팀 프로젝트 리더 선정
-💪 GitHub 잔디 365일 연속 커밋 달성 예정
-🚀 PR 50개 이상 작성 목표
-
-text
+    title OSS 전문가로 성장하기
+    dateFormat  YYYY-MM-DD
+    section Python
+    알고리즘 심화     :2025-01-01, 90d
+    웹 백엔드 FastAPI :2025-04-01, 60d
+    section Java
+    Spring Boot       :2025-02-01, 90d
+    section GitHub
+    Actions CI/CD     :2025-06-01, 30d
+    오픈소스 기여     :2025-09-01, 180d
+```
 
 ---
 
@@ -146,10 +132,10 @@ text
 <table>
   <tr>
     <td>
-      <img src="https://img.shields.io/badge/%F0%9F%93%A7%20Email-sdg331%40example.com-4b6cb7?style=for-the-badge&logo=gmail&logoColor=white" />
+      <img src="https://img.shields.io/badge/📧%20Email-sdg331@example.com-4b6cb7?style=for-the-badge&logo=gmail&logoColor=white" />
     </td>
     <td>
-      <img src="https://img.shields.io/badge/%F0%9F%92%AC%20Discord-sdg331-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
+      <img src="https://img.shields.io/badge/💬%20Discord-sdg331-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
     </td>
   </tr>
 </table>
@@ -158,7 +144,8 @@ text
 ---
 
 <div align="center">
-  <img src="https://img.shields.io/badge/OSS%20%EA%B5%90%EA%B3%BC%EB%AA%A9-1%EC%9D%BC%20%ED%99%95%EC%A0%95!-4b6cb7?style=for-the-badge&logo=trophy&logoColor=gold" />
+  <img src="https://img.shields.io/badge/OSS%20교과목목-1등%20확정!-4b6cb7?style=for-the-badge&logo=trophy&logoColor=gold" />
   <br><br>
   <img src="https://komarev.com/ghpvc/?username=sdg331&color=4b6cb7&style=for-the-badge" />
 </div>
+```
