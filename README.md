@@ -1,4 +1,4 @@
-```markdown
+
 # Personal-OSS-Project-Repository | OSS 교과목 내용 정리 깃허브
 
 <div align="center">
@@ -11,12 +11,12 @@
 
 ## 👨‍💻 **소개 | About Me**
 
-```
+
 🔭 OSS 교과목 1등 목표로 Git/GitHub 완벽 마스터 중
 🌱 Python, Java, C, HTML 실전 프로젝트 진행
 💻 vacuum-cleaner 팀 프로젝트 리더 역임
 🎯 실제 오픈소스 기여 및 GitHub Actions 자동화 구현
-```
+
 
 <div align="center">
   <img src="https://img.shields.io/badge/수업%20절려-100%-4b6cb7?style=for-the-badge&logo=github&logoColor=white" />
@@ -29,11 +29,11 @@
 ## 🛠️ **Tech Stack | 기술 스택**
 
 ### **🌟 Languages (실전 활용 중)**
-```
+
 graph LR
   A[🐍 Python<br/>알고리즘/자동화] --> B[☕ Java<br/>객체지향/백엔드]
   C[⚡ C<br/>시스템프로그래밍] --> D[🌐 HTML<br/>웹기초]
-```
+
 
 <table>
   <tr>
@@ -63,7 +63,7 @@ graph LR
 ## 📚 **Git/GitHub 완벽 마스터 | 학습 정리**
 
 ### **🎯 Git 워크플로우 (실전 적용)**
-```
+
 💡 로컬 → 원격 완전 동기화 프로세스
 ├── git clone (저장소 복제)
 ├── git checkout -b feature/기능명 (브랜치 생성)
@@ -71,7 +71,7 @@ graph LR
 ├── git commit -m "feat: 기능 설명" (의미있는 커밋 메시지)
 ├── git push origin feature/기능명 (푸시)
 └── GitHub PR 생성 → Code Review → Merge
-```
+
 
 ### **🏆 GitHub 고급 기능 활용 현황**
 | 기능 | 활용 사례 | 실습 결과 |
@@ -110,7 +110,7 @@ graph LR
 
 ## 🎯 **로드맵 | 2025 개발 계획**
 
-```
+
 gantt
     title OSS 전문가로 성장하기
     dateFormat  YYYY-MM-DD
@@ -122,7 +122,6 @@ gantt
     section GitHub
     Actions CI/CD     :2025-06-01, 30d
     오픈소스 기여     :2025-09-01, 180d
-```
 
 ---
 
