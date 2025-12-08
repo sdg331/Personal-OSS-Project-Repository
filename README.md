@@ -1,142 +1,91 @@
+# 📘 Open Source Software (OSS) Lecture Note & Assignment
 
-# Personal-OSS-Project-Repository | OSS 교과목 내용 정리 깃허브
+![Generic badge](https://img.shields.io/badge/Year-2025-blue.svg)
+![Generic badge](https://img.shields.io/badge/Course-Open%20Source%20Software-green.svg)
+![Generic badge](https://img.shields.io/badge/Tech-Git%20%7C%20GitHub-orange.svg)
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=4b6cb7&center=true&vCenter=true&width=600&lines=%F0%9F%91%8B+%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94!+%F0%9F%A4%96+sdg331;Python+%7C+Java+%7C+C+%7C+HTML+%EB%A7%8C%EB%93%A0+%EA%B8%B0%EC%88%A0%EC%9E%90;OSS+%ED%8C%8C%EC%9D%BC%EB%A1%9C+%EC%A0%9C+1%EC%9D%BC+%ED%95%98%EA%B2%A0%EC%8A%B5%EB%8B%88%EB%8B%A4!;GitHub+%ED%94%84%EB%A1%9C%ED%95%84+%EC%99%84%EC%A0%84%EC%A0%95%EB%B9%84+%EA%B5%AC%EC%B6%95+%EC%A4%91;🚀+%EA%B0%9C%EB%B0%9C%EC%9E%90+%EB%8F%84%EC%A0%84%EA%B3%BC%EC%A0%95+%ED%95%98%EA%B3%A0+%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4" alt="Typing SVG" />
-  <br><br>
-  <img src="https://github-profile-trophy.vercel.app/?username=sdg331&theme=radical&no-frame=true&no-bg=true&margin-w=15&row=1&column=7" />
-</div>
+> **오픈소스소프트웨어 교과목 학습 저장소** > 이 저장소는 강환수 교수님의 OSS 강의를 수강하며 학습한 내용, 실습 과제, 그리고 핵심 퀴즈 정리를 포함하고 있습니다.
 
----
+<br>
 
-## 👨‍💻 **소개 | About Me**
+## 📚 Weekly Summary (Key Concepts)
 
+퀴즈와 강의 자료를 통해 학습한 주차별 핵심 내용입니다.
 
-🔭 OSS 교과목 1등 목표로 Git/GitHub 완벽 마스터 중
-🌱 Python, Java, C, HTML 실전 프로젝트 진행
-💻 vacuum-cleaner 팀 프로젝트 리더 역임
-🎯 실제 오픈소스 기여 및 GitHub Actions 자동화 구현
+### [cite_start]Week 02: 버전 관리 시스템의 이해 [cite: 1-31]
 
+  - **VCS (Version Control System):** 시간 흐름에 따라 파일의 변경 사항을 추적하고 관리하는 시스템.
+  - **주요 도구:** Git, Mercurial, Bazaar 등 (※ VS Code는 편집기이므로 제외).
+  - **Git 호스팅 서비스:** GitHub, GitLab, Bitbucket.
 
-<div align="center">
-  <img src="https://img.shields.io/badge/수업%20절려-100%-4b6cb7?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/프로젝트-3개-4b6cb7?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/PR%20경험-10개이상-4b6cb7?style=for-the-badge&logo=git-pull-request&logoColor=white" />
-</div>
+### [cite_start]Week 03: Git 설치 및 리눅스 기초 [cite: 32-60]
 
----
+  - **Git 설정 범위:** `System` \> `Global` \> `Local` 순으로 적용.
+  - **저장소 초기화:** `git init [디렉토리명]` (예: `git init basic`).
+  - **필수 리눅스 명령어:**
+      - `ls`: 파일 목록 확인.
+      - `cat`: 파일 내용 출력.
+      - `echo hello > a.txt`: 파일 생성 및 내용 저장 (리다이렉션).
 
-## 🛠️ **Tech Stack | 기술 스택**
+### [cite_start]Week 04: 커밋(Commit)과 시간 여행 [cite: 61-90]
 
-### **🌟 Languages (실전 활용 중)**
+  - **Git의 3가지 영역:** 작업 영역(Working Directory) → 스테이징 영역(Staging Area) → 저장소(Repository).
+  - **상태 및 이력 확인:**
+      - `git status`: 현재 상태 확인.
+      - `git log --oneline --graph --reverse`: 커밋 이력을 그래프와 한 줄로 보기.
+      - `git show HEAD~`: 바로 이전 커밋의 상세 정보 확인.
 
-graph LR
-  A[🐍 Python<br/>알고리즘/자동화] --> B[☕ Java<br/>객체지향/백엔드]
-  C[⚡ C<br/>시스템프로그래밍] --> D[🌐 HTML<br/>웹기초]
+### [cite_start]Week 05: 파일 비교, 삭제, 복원 [cite: 91-121]
 
+  - **비교(Diff):** `git diff` (작업 디렉토리 vs 스테이징 영역).
+  - **상태 표시:** `??` (Untracked, 추적되지 않음).
+  - **복원(Restore):**
+      - `git restore [file]`: 작업 디렉토리의 변경 사항 취소.
+      - `git restore --source=HEAD --staged --worktree [file]`: **(중요)** 스테이징과 작업 트리 모두를 HEAD 상태로 강력하게 복구.
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-      <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-    </td>
-  </tr>
-</table>
+### [cite_start]Week 07: 브랜치(Branch) 정복 [cite: 122-153]
 
-### **⚙️ Tools & Platforms**
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-      <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-      <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
-    </td>
-  </tr>
-</table>
+  - **개념:** 독립적인 작업을 위한 또 다른 흐름(Flow).
+  - **명령어:**
+      - 생성 및 이동: `git switch -c [name]` 또는 `git checkout -b [name]`.
+      - 목록 확인: `git branch`.
+  - **Detached HEAD:** 브랜치 이름이 아닌 커밋 해시(예: `HEAD^^`)로 직접 이동했을 때의 상태.
 
----
+### [cite_start]Week 08: 원격 저장소와 협업 [cite: 154-183]
 
-## 📚 **Git/GitHub 완벽 마스터 | 학습 정리**
+  - **원격 저장소(Remote):** 인터넷이나 네트워크 어딘가에 있는 저장소.
+  - **주요 동작:**
+      - `Clone`: 원격 저장소를 로컬로 복제 (기본 별칭: `origin`).
+      - `Push`: 로컬의 변경 사항을 원격으로 업로드.
+      - `Pull`: 원격의 변경 사항을 가져와 로컬과 병합.
+      - `Fork`: 타인의 저장소를 내 계정으로 복사.
 
-### **🎯 Git 워크플로우 (실전 적용)**
+<br>
 
-💡 로컬 → 원격 완전 동기화 프로세스
-├── git clone (저장소 복제)
-├── git checkout -b feature/기능명 (브랜치 생성)
-├── git add . (스테이징)
-├── git commit -m "feat: 기능 설명" (의미있는 커밋 메시지)
-├── git push origin feature/기능명 (푸시)
-└── GitHub PR 생성 → Code Review → Merge
+## 🚀 Git Command Cheatsheet
 
+학습 중 자주 사용하는 핵심 명령어를 정리했습니다.
 
-### **🏆 GitHub 고급 기능 활용 현황**
-| 기능 | 활용 사례 | 실습 결과 |
-|------|-----------|-----------|
-| **Issues** | 버그 트래킹, 기능 계획 | 15개 Issues 생성/해결 |
-| **Pull Requests** | 코드 리뷰, 협업 | 10개 PR 작성/병합 |
-| **Projects** | 칸반 보드 작업 관리 | vacuum-cleaner 프로젝트 적용 |
-| **Milestones** | 릴리즈 관리 | v1.0 릴리즈 완료 |
-| **Actions** | CI/CD 자동화 | 배포 파이프라인 구축 예정 |
+| Command | Description | Note |
+|:--- |:--- |:--- |
+| `git init` | 저장소 생성 | `.git` 폴더 생성 |
+| `git status` | 파일 상태 확인 | Staged, Modified, Untracked 확인 |
+| `git add .` | 모든 변경사항 스테이징 | |
+| `git commit -m "msg"` | 커밋 생성 | 메시지 포함 |
+| `git log --all --graph` | 전체 이력 그래프 보기 | 브랜치 흐름 파악 용이 |
+| `git switch -c [branch]` | 브랜치 생성 후 이동 | `checkout -b`와 동일 |
+| `git restore --staged [file]` | 스테이징 취소 | |
+| `git remote -v` | 원격 저장소 정보 확인 | Fetch/Push URL 확인 |
 
----
+<br>
 
-## 💼 **실전 프로젝트 | Portfolio**
+## 👤 Author Info
 
-| 프로젝트명 | 🛠️ 기술스택 | 📝 주요성과 | 🔗 링크 |
-|-----------|-------------|-------------|---------|
-| **vacuum-cleaner** | Python | **팀 리더**<br>진공청소기 시뮬레이션<br>Git Flow 완벽 적용 | [바로가기](https://github.com/sdg331/vacuum-cleaner) |
-| **AI_ND** | Python | 인공지능 실습<br>모델 학습/평가 | [바로가기](https://github.com/sdg331/AI_ND) |
-| **PR-train** | Python | **Fork → PR 완벽 마스터**<br>10회 이상 PR 경험 | [바로가기](https://github.com/sdg331/PR-train) |
+  * **Name:** 김지연
+  * **Student ID:** 20252361
+  * **Department:** 인공지능소프트웨어학과
+  * **Email:** sdg331@dongyang.ac.kr
 
----
+-----
 
-## 📊 **GitHub Analytics | 실시간 통계**
-
-<div align="center">
-  <img height="195px" src="https://github-readme-stats.vercel.app/api?username=sdg331&show_icons=true&theme=radical&include_all_commits=true&count_private=true&border_radius=12"/>
-  <img height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sdg331&layout=compact&langs_count=8&theme=radical&border_radius=12"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sdg331&theme=radical&border_radius=12" alt="streak" />
-  <img src="https://github-profile-summary-cards.vercel.app/api?username=sdg331&theme=radical" alt="summary" />
-</div>
-
----
-
-## 🎯 **로드맵 | 2025 개발 계획**
-
-
-gantt
-    title OSS 전문가로 성장하기
-    dateFormat  YYYY-MM-DD
-    section Python
-    알고리즘 심화     :2025-01-01, 90d
-    웹 백엔드 FastAPI :2025-04-01, 60d
-    section Java
-    Spring Boot       :2025-02-01, 90d
-    section GitHub
-    Actions CI/CD     :2025-06-01, 30d
-    오픈소스 기여     :2025-09-01, 180d
-
----
-
-## 📫 **Contact Me | 연락처**
-
-<div align="center">
-<table>
-  <tr>
-    <td>
-      <img src="https://img.shields.io/badge/📧%20Email-sdg331@dongyang.ac.kr-4b6cb7?style=for-the-badge&logo=gmail&logoColor=white" />
-    </td>
-    <td>
-      <img src="https://img.shields.io/badge/💬%20Discord-sdg331-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
-    </td>
-  </tr>
-</table>
-</div>
-
+*Created for 2025 OSS Course Assignment.*
